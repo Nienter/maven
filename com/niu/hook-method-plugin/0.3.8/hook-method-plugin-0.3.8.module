@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.niu",
+    "module": "hook-method-plugin",
+    "version": "0.3.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "31.0.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "sdk-common",
+          "version": {
+            "requires": "31.0.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-io",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hook-method-plugin-0.3.8.jar",
+          "url": "hook-method-plugin-0.3.8.jar",
+          "size": 26092,
+          "sha512": "0953511a24a775cee5593f7496f3c561f07fb694ca00fe4dfe44fd6ec3925a78d3346f5c62292c19b14077787b55c8a0eebf4a09b2d1d5e1323a3bda18e9b167",
+          "sha256": "cb5d90b509c56bf2dae05aef5cd21f8172c701069ce8ba0162462ecfd361bcb3",
+          "sha1": "7f58572ae13536609c5f7d02cef49ffc39d65fd8",
+          "md5": "350a1d59b6c7858f47bdd08b53cc17b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "com.niu",
+          "module": "BasePlugin",
+          "version": {
+            "requires": "0.3.8"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "31.0.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "sdk-common",
+          "version": {
+            "requires": "31.0.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-io",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hook-method-plugin-0.3.8.jar",
+          "url": "hook-method-plugin-0.3.8.jar",
+          "size": 26092,
+          "sha512": "0953511a24a775cee5593f7496f3c561f07fb694ca00fe4dfe44fd6ec3925a78d3346f5c62292c19b14077787b55c8a0eebf4a09b2d1d5e1323a3bda18e9b167",
+          "sha256": "cb5d90b509c56bf2dae05aef5cd21f8172c701069ce8ba0162462ecfd361bcb3",
+          "sha1": "7f58572ae13536609c5f7d02cef49ffc39d65fd8",
+          "md5": "350a1d59b6c7858f47bdd08b53cc17b9"
+        }
+      ]
+    }
+  ]
+}
