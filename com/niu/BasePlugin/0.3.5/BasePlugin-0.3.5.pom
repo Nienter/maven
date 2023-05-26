@@ -7,7 +7,7 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.niu</groupId>
-  <artifactId>hook-method-plugin</artifactId>
+  <artifactId>BasePlugin</artifactId>
   <version>0.3.5</version>
   <dependencies>
     <dependency>
@@ -38,18 +38,6 @@
       <groupId>com.android.tools.build</groupId>
       <artifactId>gradle</artifactId>
       <version>7.4.2</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.ow2.asm</groupId>
-      <artifactId>asm-commons</artifactId>
-      <version>9.2</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.niu</groupId>
-      <artifactId>BasePlugin</artifactId>
-      <version>0.3.5</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
