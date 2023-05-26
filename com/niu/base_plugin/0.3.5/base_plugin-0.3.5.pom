@@ -18,11 +18,5 @@
       <version>1.3.72</version>
       <scope>runtime</scope>
     </dependency>
-    <dependency>
-      <groupId>com.fyber</groupId>
-      <artifactId>fairbid-sdk</artifactId>
-      <version>3.36.0</version>
-      <scope>runtime</scope>
-    </dependency>
   </dependencies>
 </project>
