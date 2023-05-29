@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.niu",
+    "module": "basePlugin",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "30.4.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "sdk-common",
+          "version": {
+            "requires": "30.4.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-io",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "basePlugin-0.1.0.jar",
+          "url": "basePlugin-0.1.0.jar",
+          "size": 12074,
+          "sha512": "edb04383225bc41adff1fb54c69485532ec8bfad1641b16d483119424ddd3b6a6478ecf9e7172722745c16cd2bb2c0738451758a583397111b046102996e8acf",
+          "sha256": "1b7b3cb6296f55e643d5374c1074b5c22c6ecc1f3eb29513c255a30794877ff1",
+          "sha1": "1203955edd5287237ac3e64e51d8eed45b7b7a80",
+          "md5": "bb6a12e19ab943ef05ad4d86c9af1b8a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "30.4.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "sdk-common",
+          "version": {
+            "requires": "30.4.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-io",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "basePlugin-0.1.0.jar",
+          "url": "basePlugin-0.1.0.jar",
+          "size": 12074,
+          "sha512": "edb04383225bc41adff1fb54c69485532ec8bfad1641b16d483119424ddd3b6a6478ecf9e7172722745c16cd2bb2c0738451758a583397111b046102996e8acf",
+          "sha256": "1b7b3cb6296f55e643d5374c1074b5c22c6ecc1f3eb29513c255a30794877ff1",
+          "sha1": "1203955edd5287237ac3e64e51d8eed45b7b7a80",
+          "md5": "bb6a12e19ab943ef05ad4d86c9af1b8a"
+        }
+      ]
+    }
+  ]
+}
