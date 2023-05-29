@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.niu",
+    "module": "hook-method-plugin",
+    "version": "0.3.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hook-method-plugin-0.3.12.jar",
+          "url": "hook-method-plugin-0.3.12.jar",
+          "size": 25963,
+          "sha512": "687ab3c262ac72774c8c019b4f7010d7e3cd4f68f56c2206303464dc3e2a02eb6b01345356cdb5ba5671ad66145358ae852f32f77d28ec1c6e0ad99d0b32f99b",
+          "sha256": "402476f032e4cb4134fba3058eccd2a1fc79bdbec80147323c34d8fb9e706f77",
+          "sha1": "12488aa7490ebe6c5b4dc69d238f97e64323d653",
+          "md5": "f50c457f02ab930c1765959f9c9a7b85"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "com.niu",
+          "module": "BasePlugin",
+          "version": {
+            "requires": "0.3.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hook-method-plugin-0.3.12.jar",
+          "url": "hook-method-plugin-0.3.12.jar",
+          "size": 25963,
+          "sha512": "687ab3c262ac72774c8c019b4f7010d7e3cd4f68f56c2206303464dc3e2a02eb6b01345356cdb5ba5671ad66145358ae852f32f77d28ec1c6e0ad99d0b32f99b",
+          "sha256": "402476f032e4cb4134fba3058eccd2a1fc79bdbec80147323c34d8fb9e706f77",
+          "sha1": "12488aa7490ebe6c5b4dc69d238f97e64323d653",
+          "md5": "f50c457f02ab930c1765959f9c9a7b85"
+        }
+      ]
+    }
+  ]
+}

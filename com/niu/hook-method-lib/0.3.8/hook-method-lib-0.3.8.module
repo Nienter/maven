@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.niu",
+    "module": "hook-method-lib",
+    "version": "0.3.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hook-method-lib-0.3.8-debug.aar",
+          "url": "hook-method-lib-0.3.8-debug.aar",
+          "size": 9108,
+          "sha512": "a6d438279861cf6f381002686695dca3887ef2e81a2348221aa39d5844515f0454b38a046e602b846cbf680db52189132b0e5f876f5f8d0247c1530274498afa",
+          "sha256": "66aefbc7e7f101850d03e46dc8141693294fb7c5b00b5052fb5d603bb843a9e5",
+          "sha1": "092574cadcf2e4dddcd0e0d6162905ee0a86c281",
+          "md5": "aa5d17ae4e54392abe36de4de163e85f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hook-method-lib-0.3.8-debug.aar",
+          "url": "hook-method-lib-0.3.8-debug.aar",
+          "size": 9108,
+          "sha512": "a6d438279861cf6f381002686695dca3887ef2e81a2348221aa39d5844515f0454b38a046e602b846cbf680db52189132b0e5f876f5f8d0247c1530274498afa",
+          "sha256": "66aefbc7e7f101850d03e46dc8141693294fb7c5b00b5052fb5d603bb843a9e5",
+          "sha1": "092574cadcf2e4dddcd0e0d6162905ee0a86c281",
+          "md5": "aa5d17ae4e54392abe36de4de163e85f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hook-method-lib-0.3.8-release.aar",
+          "url": "hook-method-lib-0.3.8-release.aar",
+          "size": 8802,
+          "sha512": "6796953abe2486b36991a8716ff8d8ac2153a112751422b02002dd1e1262515618fe345af6f08bfe4571172fd3aa8a1c1a77064719ea8925c7b4649cf3efa4b5",
+          "sha256": "38ab4ff8615688779f1b00301988016a15d44373a06d91eeac32e94d44a2c30a",
+          "sha1": "4b0a49907e009a042117a08b95c85b84c965cd75",
+          "md5": "a6e1d0a443a9ffd85ad6154682328dea"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hook-method-lib-0.3.8-release.aar",
+          "url": "hook-method-lib-0.3.8-release.aar",
+          "size": 8802,
+          "sha512": "6796953abe2486b36991a8716ff8d8ac2153a112751422b02002dd1e1262515618fe345af6f08bfe4571172fd3aa8a1c1a77064719ea8925c7b4649cf3efa4b5",
+          "sha256": "38ab4ff8615688779f1b00301988016a15d44373a06d91eeac32e94d44a2c30a",
+          "sha1": "4b0a49907e009a042117a08b95c85b84c965cd75",
+          "md5": "a6e1d0a443a9ffd85ad6154682328dea"
+        }
+      ]
+    }
+  ]
+}
